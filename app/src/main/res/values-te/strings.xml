@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quadcare</string>
+    <string name="heading_of_activity">యాక్టివిటీలో వీడియో ఫైల్ రన్ చేయడం</string>
+    <string name="getstarted">ప్రారంభించండి</string>
+    <string name="random">మీరు దీన్ని చేశారు</string>
+    <string name="hello_blank_fragment">హలో ఖాళీ భాగం</string>
+    <string name="patient">రోగులు</string>
+    <string name="viewPatients">రోగులను వీక్షించండి</string>
+    <string name="viewDoctor">వైద్యులను వీక్షించండి</string>
+    <string name="viewAppointments">నియామకాలను వీక్షించండి</string>
+    <string name="doctor">వైద్యులు</string>
+    <string name="appointment">నియామకాలు</string>
+    <string name="shift_start_time">షిఫ్ట్ ప్రారంభ సమయం</string>
+    <string name="Successfully">విజయవంతమైంది</string>
+    <string name="failed">విఫలమైంది</string>
+    <string name="shiftendtime">షిఫ్ట్ ముగింపు సమయం</string>
+    <string name="reason_for_appointment">అపాయింట్ మెంట్ కు కారణం</string>
+    <string name="book_appointment">బుక్ అపాయింట్ మెంట్</string>
+    <string name="add_doctor">డాక్టరును జోడించు</string>
+    <string name="phone_number">ఫోన్ నంబర్</string>
+    <string name="name">పేరు</string>
+    <string name="age">వయసు</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="address">చిరునామా</string>
+    <string name="add_patient">రోగిని జోడించు</string>
+    <string name="textview">టెక్స్ట్ వ్యూ</string>
+    <string name="assign_to">దేనిని కేటాయించండి</string>
+    <string name="assign">అప్పగించు</string>
+    <string name="view_apppointment">అపాయింట్ మెంట్ వీక్షించండి</string>
+    <string name="view_patients">రోగులను వీక్షించండి</string>
+    <string name="view_doctors">వైద్యులను వీక్షించండి</string>
+    <string name="doctorname">డాక్టర్ పేరు</string>
+    <string name="patient_id">రోగి_ఐడి</string>
+    <string name="Notes">Notes</string>
+    <string name="accessibility_service_label">accessibility_Service_Label</string>
+    <string name="accessibility_service_description">accessibility_Service_Description</string>
+</resources>

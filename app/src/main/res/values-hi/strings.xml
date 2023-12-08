@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quadcare</string>
+    <string name="heading_of_activity">kisi gatividhi mein video file chalana</string>
+    <string name="getstarted">aarambh</string>
+    <string name="random">aapne ise banaya</string>
+    <string name="hello_blank_fragment">hallow rikt tukada</string>
+    <string name="patient">rogiyon</string>
+    <string name="viewPatients">marijon ko dekhen</string>
+    <string name="viewDoctor">doctors ko dekhen</string>
+    <string name="viewAppointments">appointment dekhen</string>
+    <string name="doctor">doctoron</string>
+    <string name="appointment">appointment</string>
+    <string name="shift_start_time">prarambh samay badlen</string>
+    <string name="Successfully">safaltapurvak</string>
+    <string name="failed">asafal</string>
+    <string name="shiftendtime">shift samapti samay</string>
+    <string name="reason_for_appointment">niyukti ka karan</string>
+    <string name="book_appointment">appointment book karen</string>
+    <string name="add_doctor">doctor joden</string>
+    <string name="phone_number">phone sankhya</string>
+    <string name="name">naam</string>
+    <string name="age">umr</string>
+    <string name="email">email</string>
+    <string name="address">pata</string>
+    <string name="add_patient">rogi joden</string>
+    <string name="textview">path drishya</string>
+    <string name="assign_to">assign karen</string>
+    <string name="assign">saunpana</string>
+    <string name="view_apppointment">appointment dekhen</string>
+    <string name="view_patients">marijon ko dekhen</string>
+    <string name="view_doctors">doctors ko dekhen</string>
+    <string name="doctorname">doctor ka naam</string>
+    <string name="patient_id">rogi id</string>
+    <string name="Notes">Notes</string>
+    <string name="accessibility_service_label">accessibility_Service_Label</string>
+    <string name="accessibility_service_description">accessibility_Service_Description</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AssignDoctorActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/primaryColor"
+        android:id="@+id/toolbar"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:src="@drawable/quadcare"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:text="Assign Doctor"/>
+
+            <Switch
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:text=""
+
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                android:switchMinWidth="40dp"
+                android:backgroundTint="@color/white"
+                android:padding="20dp"
+                android:id="@+id/action_switch"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/assign_doctor_constraint">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50121653" />
+
+        <TextView
+            android:id="@+id/assign_appointment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@id/assign_doctor_constraint"
+            app:layout_constraintTop_toTopOf="@id/assign_doctor_constraint" />
+
+        <TextView
+            android:id="@+id/assign_appointmentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="@string/textview"
+            app:layout_constraintEnd_toEndOf="@id/assign_doctor_constraint"
+            app:layout_constraintHorizontal_bias="0.537"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="@id/assign_doctor_constraint" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/assign_to"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@id/assign_doctor_constraint"
+            app:layout_constraintTop_toBottomOf="@+id/assign_appointment_date" />
+
+        <ScrollView
+            android:id="@+id/assign_scroll_view"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="@id/assign_doctor_constraint"
+            android:padding="10dp"
+            android:background="@drawable/scroll_view_bg"
+            app:layout_constraintHorizontal_bias="0.561"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/assign_appointmentTime">
+
+            <RadioGroup
+                android:id="@+id/assign_radio_grp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </RadioGroup>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/assign_appointment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@id/assign_doctor_constraint"
+            app:layout_constraintTop_toTopOf="@id/assign_doctor_constraint" />
+
+        <FrameLayout
+            android:id="@+id/assign_appointment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="@string/assign"
+            android:background="@drawable/assign_btn"
+            app:layout_constraintEnd_toEndOf="@id/assign_doctor_constraint"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@id/assign_doctor_constraint"
+            app:layout_constraintTop_toBottomOf="@+id/assign_scroll_view" />
+
+        <ProgressBar
+            android:id="@+id/assign_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/assign_doctor_constraint"
+            app:layout_constraintEnd_toEndOf="@id/assign_doctor_constraint"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:max="100"
+            android:minHeight="100dp"
+            android:minWidth="200dp"
+            app:layout_constraintStart_toStartOf="@id/assign_doctor_constraint"
+            app:layout_constraintTop_toTopOf="@id/assign_doctor_constraint"
+            android:indeterminateTint="@color/primaryColor"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

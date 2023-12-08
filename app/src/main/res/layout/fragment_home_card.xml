@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeCardFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="@dimen/cardRadius"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/primaryColor">
+
+            <TextView
+                android:id="@+id/cardText"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/cardTextSize"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Card Name"/>
+
+            <ImageView
+                android:id="@+id/cardImg"
+                android:layout_width="@dimen/cardImgWidth"
+                android:layout_height="@dimen/cardImgHeight"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/quadcare"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

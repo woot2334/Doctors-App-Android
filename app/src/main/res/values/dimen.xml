@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardTextSize">20dp</dimen>
+    <dimen name="cardImgWidth">60dp</dimen>
+    <dimen name="cardImgHeight">60dp</dimen>
+    <dimen name="cardRadius">10dp</dimen>
+</resources>

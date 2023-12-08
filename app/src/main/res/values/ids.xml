@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="appointment_date" type="id" />
+    <item name="appointment_time" type="id" />
+    <item name="appointment_reasonForAppointment" type="id" />
+</resources>
